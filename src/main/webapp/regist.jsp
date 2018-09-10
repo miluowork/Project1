@@ -7,7 +7,7 @@
 <html>
 <head>
 		<meta charset="UTF-8">
-		<title>注册</title>
+		<title></title>
 		<link rel="stylesheet" type="text/css" href="/MarksWeb/lib/css/footer.css"/>
 		<script src="/MarksWeb/lib/js/jquery.min.js" type="text/javascript"charset="utf-8"></script>
 		<script src="/MarksWeb/lib/layer/layer.js" type="text/javascript"></script>
