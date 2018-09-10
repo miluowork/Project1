@@ -1,0 +1,128 @@
+@charset "UTF-8";
+body,p{
+	       margin: 0;
+		}
+		b{
+			font-weight: normal;
+		}
+		ul,ol,dl,dt,dd,li{
+			list-style: none;
+			margin: 0;
+			padding: 0;
+		}
+		a{
+			text-decoration: none;
+			color:#706e6e ;
+		}
+		em{
+			font-style: normal;
+		}
+		input,textarea,button{
+			border: none;
+			background: transparent;
+		}
+		input:focus,textarea:focus{
+			outline: none;
+		}
+			.box{
+				width: 100%;
+				background: #F4F4F4;
+				overflow: hidden;
+			}
+			.head{
+				width: 1200px;
+				margin: 45px auto 25px;
+				overflow: hidden;
+				
+			}
+			.head .logo-zc{
+				float: left;
+			}
+			.welcome{
+				display: inline-block;
+				line-height: 52px;
+				float: left;
+				margin-left: 60px;
+				font-family: "微软雅黑";
+				font-size: 18;
+				color: #494747;
+			}
+			.cont-zc{
+				width: 1200px;
+				height: 500px;
+				background: #FFFFFF;
+				border-top: 3px solid  #D63A3B;
+				margin: 0 auto;
+			}
+			.cont-zc ul{
+				margin-top:50px;
+			}
+			.cont-zc ul li label{
+				font-size: 14px;
+				color: #666666;
+				text-align: right;
+				width: 70px;
+				display: inline-block;
+			}
+			
+			.cont-zc ul li{
+				margin-bottom: 18px;
+				margin-left: 390px;
+			}
+			.cont-zc ul .yz{
+				position: relative;
+			}
+			.cont-zc ul .yz p{
+				background: url(img/yz.png);
+				position: absolute;
+				right: 405px;
+				top:10px;
+				width: 87px;
+				height: 28px;
+			}
+			
+			.cont-zc input{
+				margin-left: 10px;
+			}
+			.cont-zc .one,.cont-zc .two,.cont-zc .three,.cont-zc .four{
+				width: 338px;
+				height: 44px;
+				border: 1px solid #dddddd;
+				padding-left: 10px;
+			}
+			.cont-zc ul li .five{
+				margin-left: 65px;
+				vertical-align: middle;
+			}
+			.cont-zc ul li .six{
+				cursor: pointer;
+				width: 350px;
+				height: 50px;
+				background: #D63A3B;
+				font-size: 16px;
+				color: #fffffc;
+				margin-left:65px ;
+			}
+			
+			.cont-zc span{font-size: 12px;
+			 color: #666666;
+			 vertical-align: middle;
+			 display: inline-block;
+			 display: none;
+			
+			}
+			.cont-zc input:focus+span{
+				display: inline-block;
+			}
+			.yuedu{
+				font-size: 12px;
+				color: #666666;
+				display: inline-block;
+			}
+			.xieyi{
+				color: #1b66c7;
+			}
+			footer .up .cont{
+	         overflow:visible !important;
+	
+            }

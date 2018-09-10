@@ -1,0 +1,139 @@
+@charset "utf-8";
+body,p{
+	       margin: 0;
+		}
+b{
+	font-weight: normal;
+}
+ul,ol,dl,dt,dd,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color:#706e6e ;
+}
+em{
+	font-style: normal;
+}
+input,textarea,button{
+	border: none;
+	background: transparent;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+.line{
+	width: 100%;
+	height: 1px;
+	background: #D63A3B;
+}
+.cont-hy{
+	width: 1200px;
+	margin: 0 auto;
+}
+.cont-hy ul{
+	overflow: hidden;
+}
+.cont-hy ul li{
+	float: left;
+}
+.cont-hy ul .left{
+	text-align: center;
+	width: 192px;
+}
+.cont-hy ul .left dt{
+	margin-top: 32px;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #3c373e;
+}
+.cont-hy ul .left dd{
+	margin-top: 12px;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+
+}
+.cont-hy ul .left .dd1{
+	color: #D63A3B;
+	
+}
+.cont-hy ul .center{
+	margin: 48px 0 0  65px;
+	
+}
+.cont-hy ul .center .d1 span{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#666666;
+}
+.cont-hy ul .center .d1 .s1{
+	color:#D63A3B;
+	border-bottom: 2px solid #D63A3B;
+	margin-right: 36px;
+}
+.cont-hy ul .center .d3{
+	margin:  40px 0 0 50px;
+	
+}
+.cont-hy ul .center .d3 div{
+	margin-bottom: 30px;
+}
+.cont-hy ul .center .d3 input{
+	border: 1px solid #d2d2d2;
+	}
+.cont-hy ul .center .d3 .input1{
+	width: 150px;
+	height: 30px;
+	padding-left: 5px;
+}
+.cont-hy ul .center .d3 div label,.cont-hy ul .center .d3 div span{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#444444;
+}
+.cont-hy ul .center .d3 .input2{
+	vertical-align: middle;
+	
+}
+.cont-hy ul .center .d3 div span{
+	margin-right: 15px;
+}
+.cont-hy ul .center .d3 .real input{
+	width: 150px;
+	height: 30px;
+}
+.cont-hy ul .center  label{
+	            display: inline-block;  
+				text-align: right;
+				display: inline-block;
+				width: 100px;
+			}
+.cont-hy ul .center .d3 .hobby p{
+	margin: 15px 0 0 100px;
+}			
+.cont-hy ul .center .d3 .hobby p span{
+	display: inline-block;
+	padding: 0 15px;
+	border: 1px solid #d2d2d2;
+	
+}
+.cont-hy ul .center .d3 .email .blue{
+	color: #005ea7;
+}
+.cont-hy ul .center .d3 button{
+	width: 56px;
+	height: 30px;
+	border: 1px solid #dcdcdc;
+	background: #f6f6f6;
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color:#444444;
+	text-align: center;
+	margin: 0 0 70px 100px;
+}
+.cont-hy ul .right{
+	margin-top: 75px;
+}

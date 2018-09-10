@@ -1,0 +1,124 @@
+@charset "utf-8";
+.tanchu{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.6);
+	z-index: 50;
+	display: none;
+}
+.tanchu .denglu{
+	width: 440px;
+	height: 380px;
+	background: #FFFFFF;
+	position: fixed;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	top: 120px;
+	position: relative;
+	overflow: hidden;
+}
+.close{
+	background-image: url(../img/close.png);
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	width: 17px;
+	height: 17px;
+	
+}
+.close:hover{
+	background-image: url(../img/cl.png);
+}
+.denglu-cont{
+	width: 255px;
+	margin: 0 auto;
+}
+.denglu-cont .p1{
+	margin-top: 50px;
+	margin-bottom: 24px;
+	text-align: center;
+}
+.denglu-cont .s1{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #EB465F;
+	margin-right: 42px;
+	font-weight:600;
+	
+}
+.denglu-cont .s2{
+	font-family: "微软雅黑";
+	font-size: 18px;
+	color: #333333;
+	border-left: 1px solid #a5a5a5;
+	padding-left: 42px;
+	margin-right: 0;
+	font-weight:600;
+}
+input,textarea,button{
+	border: 0;
+	background: transparent;
+}
+input:focus,textarea:focus{
+	outline: none;
+}
+input{
+				width: 247px;
+				height: 32px;
+				border-radius: 2px;
+				padding-left: 5px;
+				border: 1px solid #a5a5a5;
+				margin-top: 16px;
+			}
+.denglu-cont .p2{
+	font-family: "微软雅黑";
+	font-size: 12px;
+	color: #EB465F;
+	margin-left: 195px;
+}
+button{
+	width: 255px;
+	height: 40px;
+	border-radius: 2px;
+	background: #EB465F;
+	font-family: "微软雅黑";
+	font-size: 16px;
+	color: #FFFFFF;
+	text-align: center;
+	line-height: 40px;
+	margin-top:35px;
+}
+.weixin{
+	margin-top: 28px;
+}
+.weixin li{
+	font-family: "微软雅黑";
+	font-size: 14px;
+	color: #666666;
+	margin-right: 39px;
+	float: left;
+}
+.weixin li:last-child{
+	margin-right: 0;
+	
+}
+.weixin li em{
+	display: inline-block;
+	width:28px ;
+	height: 28px;
+	
+	vertical-align: middle;
+}
+.weixin li .e1{
+	background-image: url(../img/weixin.png);
+}
+.weixin li .e2{
+	background-image: url(../img/weibo.png);
+}
+.weixin li .e3{
+	background-image: url(../img/qq.png);
+}
+
+
